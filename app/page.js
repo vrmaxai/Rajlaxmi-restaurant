@@ -49,7 +49,7 @@ const CLIENT_CONFIG = {
   logoInitials: "RL",
   // TODO: yahan client ka asli Google write-review link replace karna hai
   googleReviewUrl:
-    "https://search.google.com/local/writereview?placeid=REPLACE_WITH_CLIENT_PLACE_ID",
+    "https://search.google.com/local/writereview?placeid=ChIJ73Awj84vjjkRRlYOCQK-m3A",
   mapsDirectionUrl:
     "https://www.google.com/maps/search/?api=1&query=Rajlakshmi+Restaurant+D+38+113+Hauz+Katora+Bansphatak+Rd+Varanasi+Uttar+Pradesh",
   // 8 Quick Actions (4 upar: Call, WhatsApp, Save Contact, Directions | 4 niche: Instagram, Facebook, Website, Google Page)
