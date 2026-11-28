@@ -4,11 +4,11 @@ import { useState, useEffect, useRef, useCallback } from "react";
 
 /* =====================================================================
    GALLERY (safe mode)
-   Photos ko /public/ folder me rakho: photo1.webp ... photo8.webp
+   Photos ko /public/ folder me rakho: photo1.webp ... photo16.webp
    - Jo photos milengi wahi gallery me dikhengi
    - Ek bhi photo nahi hui to 5 "Insert your photo here" demo slides dikhengi
    ===================================================================== */
-const GALLERY_MAX = 8;
+const GALLERY_MAX = 16;
 const GALLERY_FOLDER = ""; // Empty means root of public folder
 const GALLERY_EXT = "webp";
 const PLACEHOLDER_COUNT = 5;
@@ -49,7 +49,7 @@ const CLIENT_CONFIG = {
   logoInitials: "RL",
   // TODO: yahan client ka asli Google write-review link replace karna hai
   googleReviewUrl:
-    "https://search.google.com/local/writereview?placeid=ChIJ73Awj84vjjkRRlYOCQK-m3A",
+    "https://search.google.com/local/writereview?placeid=REPLACE_WITH_CLIENT_PLACE_ID",
   mapsDirectionUrl:
     "https://www.google.com/maps/search/?api=1&query=Rajlakshmi+Restaurant+D+38+113+Hauz+Katora+Bansphatak+Rd+Varanasi+Uttar+Pradesh",
   // 8 Quick Actions (4 upar: Call, WhatsApp, Save Contact, Directions | 4 niche: Instagram, Facebook, Website, Google Page)
